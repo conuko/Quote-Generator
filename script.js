@@ -52,7 +52,7 @@ async function getQuotes() {
     } catch (error) {
         let counter = 0; /* Counter to count the errors. After 10 errors, browser shows the alert message. */
         if (counter = 10) {
-            alert("Sorry, we can't finde any Quotes. Try again later!");
+            alert("Sorry, we can't find any Quotes. Try again later!");
         } else {
             getQuote();
         }
